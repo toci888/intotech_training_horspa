@@ -35,11 +35,9 @@ namespace Intotech.Hornets.Cmd
 
         public string GenerateStrongRandomPassword()
         {
-            // 48 - 57 ascii 0 - 9 65 - 9* 97 -12*
             string result = string.Empty; // "" null
             Console.WriteLine("Podaj długość hasła: ");
             int end = Int16.Parse(Console.ReadLine());
-            
             Random random = new Random();
             if(end > minLength)
             {
@@ -49,6 +47,9 @@ namespace Intotech.Hornets.Cmd
 
                     result += characters[position];
                 }
+            } else
+            {
+                Console.WriteLine("Hasło za krótkie, musi mieć min 8 znaków!");
             }
 
 
