@@ -37,15 +37,21 @@ namespace Intotech.Hornets.Cmd
         {
             // 48 - 57 ascii 0 - 9 65 - 9* 97 -12*
             string result = string.Empty; // "" null
-
+            Console.WriteLine("Podaj długość hasła: ");
+            int end = Int16.Parse(Console.ReadLine());
+            
             Random random = new Random();
-
-            for (int i = 0; i < minLength; i++)
+            if(end > minLength)
             {
-                int position = random.Next(0, characters.Length - 1);
+                for (int i = 0; i < end; i++)
+                {
+                    int position = random.Next(0, characters.Length - 1);
 
-                result += characters[position];
+                    result += characters[position];
+                }
             }
+
+
 
             return result;
         }

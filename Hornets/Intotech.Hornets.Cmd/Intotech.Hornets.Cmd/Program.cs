@@ -11,6 +11,6 @@ TextUtils tu = new TextUtils();
 string password = tu.GenerateStrongRandomPassword();
 
 Console.WriteLine(password);
-
+Console.ReadLine();
 //ThisIsASimpleClass tiasc = new ThisIsASimpleClass();
 
