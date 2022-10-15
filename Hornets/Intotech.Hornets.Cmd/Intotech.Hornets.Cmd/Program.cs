@@ -8,9 +8,14 @@ Console.WriteLine("Hello, World!");
 
 TextUtils tu = new TextUtils();
 
-string password = tu.GenerateStrongRandomPassword();
+string month = tu.PeselToMonth("84021211112");
 
-Console.WriteLine(password);
+for (; ; )
+{
+    string password = tu.GenerateStrongRandomPassword();
+}
+
+//Console.WriteLine(password);
 
 //ThisIsASimpleClass tiasc = new ThisIsASimpleClass();
 
