@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intotech.Hornets.Cmd", "Intotech.Hornets.Cmd\Intotech.Hornets.Cmd.csproj", "{36EE343B-72C0-4966-9637-240D2116BC10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36EE343B-72C0-4966-9637-240D2116BC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36EE343B-72C0-4966-9637-240D2116BC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36EE343B-72C0-4966-9637-240D2116BC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36EE343B-72C0-4966-9637-240D2116BC10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C97BDE05-7D00-4B3E-B78C-C1207B34C41F}
+	EndGlobalSection
+EndGlobal
