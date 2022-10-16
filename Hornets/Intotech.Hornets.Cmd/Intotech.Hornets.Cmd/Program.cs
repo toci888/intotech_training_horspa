@@ -15,6 +15,8 @@ for (; ; )
     string password = tu.GenerateStrongRandomPassword();
 }
 
+// OOP
+
 //Console.WriteLine(password);
 
 //ThisIsASimpleClass tiasc = new ThisIsASimpleClass();
