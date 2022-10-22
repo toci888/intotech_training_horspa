@@ -18,11 +18,18 @@ namespace Intotech.Hornets.Cmd
 
     public class NotImportant
     {
+        public static string WeUnderstand;
+
         public string Key { get; set; }
 
-        public void whatever()
+        public static void whatever()
         {
             //Encrypter.
         }
+    }
+
+    public class Interop
+    {
+        
     }
 }

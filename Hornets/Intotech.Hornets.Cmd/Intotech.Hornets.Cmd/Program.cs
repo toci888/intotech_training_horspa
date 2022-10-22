@@ -1,7 +1,24 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Intotech.Hornets.Cmd;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Podaj wartosc: ");
+string userInput = Console.ReadLine();
+
+int test = 0;
+int.TryParse(userInput, out test);
+
+if (test == 0)
+{
+    test = StringUtils.ExtractDigitsForString(userInput);
+}
+
+Console.WriteLine(test);
+
+
+GenericTypes gt = new GenericTypes();
+
+gt.DivideStringIntoChars("porsche panamera");
+
 
 //Console console = new Console();
 
