@@ -11,7 +11,7 @@ namespace Intotech.Hornets.Cmd
         public Dictionary<char, int> DivideStringIntoChars(string candidate) // porsche panamera
         {
             Dictionary<char, int> dividedStr = new Dictionary<char, int>();
-
+            //dividedStr.co
             /*foreach (char c in candidate) // p
             {
                 if (dividedStr.ContainsKey(c))
@@ -23,7 +23,7 @@ namespace Intotech.Hornets.Cmd
                     dividedStr.Add(c, 1);
                 }
             }*/
-            
+
             for (int i = 0; i < candidate.Length; i++)
             {
                 if (dividedStr.ContainsKey(candidate[i]))
@@ -39,12 +39,19 @@ namespace Intotech.Hornets.Cmd
             return dividedStr;
         }
 
+        public bool AreAnagrams(string first, string second)
+        {
+            Dictionary<char, int> firstDict = DivideStringIntoChars(first);
+
+            return firstDict.Compare(DivideStringIntoChars(second));
+        }
+
         public void MyGenericList()
         {
             ///Dictionary<char, int> dividedString = new Dictionary<char, int>();
 
+            Dictionary<string, int> test = new Dictionary<string, int>();
 
-            
            // 
            
 

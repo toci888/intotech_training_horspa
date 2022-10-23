@@ -1,6 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Intotech.Hornets.Cmd;
 
+
+GenericTypes gtypes = new GenericTypes();
+gtypes.AreAnagrams("tomekj", "tmkoei");
+
 Console.WriteLine("Podaj wartosc: ");
 string userInput = Console.ReadLine();
 

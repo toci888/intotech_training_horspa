@@ -35,6 +35,10 @@ namespace Intotech.Hornets.Cmd
 
             return result;
         }
+        //int result = 
+        // 3 + 4 => 3 + 4
+        // 4 * 7
+        // + - * /
 
         // 012345
         // bartek -> ketrab 
