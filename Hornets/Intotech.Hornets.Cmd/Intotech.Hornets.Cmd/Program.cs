@@ -1,5 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Intotech.Hornets.Cmd;
+using Intotech.Hornets.Cmd.Kalkulator;
+
+CalculatorKrzysiu.GiveMathOperation();
 
 
 GenericTypes gtypes = new GenericTypes();
