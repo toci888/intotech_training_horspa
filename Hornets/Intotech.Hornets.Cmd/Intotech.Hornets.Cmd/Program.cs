@@ -2,8 +2,7 @@
 using Intotech.Hornets.Cmd;
 using Intotech.Hornets.Cmd.Kalkulator;
 
-CalculatorKrzysiu.Calculate();
-
+CalculatorKrzysiu.GiveMathOperation();
 
 
 GenericTypes gtypes = new GenericTypes();
