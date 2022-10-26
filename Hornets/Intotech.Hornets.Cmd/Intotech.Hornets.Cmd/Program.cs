@@ -1,6 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Intotech.Hornets.Cmd;
+using Intotech.Hornets.Cmd.Delegates;
 using Intotech.Hornets.Cmd.Kalkulator;
+
+DelegateExample delex = new DelegateExample();
+
+delex.CollectionsDemistified();
+
 
 CalculatorKrzysiu.GiveMathOperation();
 
