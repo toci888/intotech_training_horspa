@@ -7,6 +7,7 @@ DelegateExample delex = new DelegateExample();
 
 delex.CollectionsDemistified();
 
+CalculatorRob.GetUserData();
 
 CalculatorKrzysiu.GiveMathOperation();
 
