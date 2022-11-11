@@ -9,6 +9,8 @@ JsonLogic jl = new JsonLogic();
 
 List<DevsModel> resultDevs = jl.RunDeserialization();
 
+List<DevsModel> resultDevsRob = jl.RunDeserializationRob();
+
 
 
 
