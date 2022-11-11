@@ -1,0 +1,10 @@
+﻿{
+    "Programisci": [
+        { "dev": "Julia", "skills": [
+            { "skill": "c#" },
+            { "skill": "js" }
+        ] },
+        { "dev": "Robert" },
+        { "dev": "Krzys" }
+    ]
+}
