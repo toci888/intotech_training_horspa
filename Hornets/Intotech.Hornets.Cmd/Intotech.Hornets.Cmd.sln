@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intotech.Hornets.Cmd", "Intotech.Hornets.Cmd\Intotech.Hornets.Cmd.csproj", "{36EE343B-72C0-4966-9637-240D2116BC10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intotech.Hornets.Cmd", "Intotech.Hornets.Cmd\Intotech.Hornets.Cmd.csproj", "{36EE343B-72C0-4966-9637-240D2116BC10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intotech.Hornets.Bll.Sketches", "Intotech.Hornets.Bll.Sketches\Intotech.Hornets.Bll.Sketches.csproj", "{57F444D3-A89C-48E8-923F-35E611C4E8F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{36EE343B-72C0-4966-9637-240D2116BC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36EE343B-72C0-4966-9637-240D2116BC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36EE343B-72C0-4966-9637-240D2116BC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F444D3-A89C-48E8-923F-35E611C4E8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F444D3-A89C-48E8-923F-35E611C4E8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F444D3-A89C-48E8-923F-35E611C4E8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F444D3-A89C-48E8-923F-35E611C4E8F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

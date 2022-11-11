@@ -1,7 +1,18 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Intotech.Hornets.Bll.Sketches.Json;
 using Intotech.Hornets.Cmd;
 using Intotech.Hornets.Cmd.Delegates;
 using Intotech.Hornets.Cmd.Kalkulator;
+
+
+JsonLogic jl = new JsonLogic();
+
+List<DevsModel> resultDevs = jl.RunDeserialization();
+List<DevsModel> resultDevss = jl.RunDeserializationlol();
+
+
+
+
 
 DelegateExample delex = new DelegateExample();
 
