@@ -41,7 +41,7 @@ namespace Intotech.Hornets.Bll.Sketches.Json
 
         public List<DevsModel> RunDeserializationRob()
         {
-            return GetDevs(File.ReadAllText(@"Hornets\Intotech.Hornets.Cmd\Intotech.Hornets.Bll.Sketches\Json\jsondevsRob.txt"));
+            return GetDevs(File.ReadAllText(@"C:\Users\newde\source\repos\toci888\intotech_training_horspa\Hornets\Intotech.Hornets.Cmd\Intotech.Hornets.Bll.Sketches\Json\JsonLogic.cs"));
         }
     }
 }
