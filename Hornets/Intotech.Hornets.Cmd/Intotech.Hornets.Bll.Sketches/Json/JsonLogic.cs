@@ -31,12 +31,9 @@ namespace Intotech.Hornets.Bll.Sketches.Json
 
         public List<DevsModel> RunDeserialization()
         {
-            return GetDevs(File.ReadAllText(@"C:\Users\bzapa\source\repos\intotech_training_horspa\Hornets\Intotech.Hornets.Cmd\Intotech.Hornets.Bll.Sketches\Json\jsondevs.txt"));
+            return GetDevs(File.ReadAllText(@"../../../../Intotech.Hornets.Bll.Sketches/Json/jsondevs.txt"));
         }
-
-        public List<DevsModel> RunDeserializationlol()
-        {
-            return GetDevs(File.ReadAllText(@"C:\Users\bzapa\source\repos\intotech_training_horspa\Hornets\Intotech.Hornets.Cmd\Intotech.Hornets.Bll.Sketches\Json\jsondevs.txt"));
-        }
+        //stworzyc plik wlasny json z devami, dodac i wywolac metode ponizej tak, zeby wskazywala na stworzony json
+        
     }
 }

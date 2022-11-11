@@ -8,7 +8,7 @@ using Intotech.Hornets.Cmd.Kalkulator;
 JsonLogic jl = new JsonLogic();
 
 List<DevsModel> resultDevs = jl.RunDeserialization();
-List<DevsModel> resultDevss = jl.RunDeserializationlol();
+
 
 
 
