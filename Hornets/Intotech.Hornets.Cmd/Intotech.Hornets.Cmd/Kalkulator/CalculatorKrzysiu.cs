@@ -12,8 +12,6 @@ namespace Intotech.Hornets.Cmd.Kalkulator
         {
             Console.WriteLine("Podaj działanie:");
             string userInput = Console.ReadLine();
-
-
         }
 
         private static void Calc(string userData)
@@ -42,13 +40,13 @@ namespace Intotech.Hornets.Cmd.Kalkulator
         {
             Console.WriteLine("Podaj działanie:");
             string userInput = Console.ReadLine();
+            Console.WriteLine("-------");
 
             CheckingChars(userInput);
         }
 
         public static void CheckingChars(string userInput)
         {
-            Console.WriteLine("-------");
             // pomocnicze zmienne tablicowe
             char[] numbers = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
             char[] charsOperator = { '+', '-', '*', '/' };
