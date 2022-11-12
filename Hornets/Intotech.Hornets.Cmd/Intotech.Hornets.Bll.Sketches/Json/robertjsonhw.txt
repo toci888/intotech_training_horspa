@@ -1,12 +1,16 @@
 ﻿{
-	[
-		{ 
-			"title": "reksio",
-			"subject": "doopa"
-		 },
-{ 
-			"title": "koziolek matolek",
-			"subject": "doopa"
-		 }
-	]
+    "bajki": [
+        {
+            "title": "reksio",
+            "subject": "pies"
+        },
+        {
+            "title": "koziolek matolek",
+            "subject": "kozioł"
+        },
+        {
+            "title": "pszczółka Maja",
+            "subject": "pszczoła"
+        }
+    ]
 }
