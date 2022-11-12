@@ -31,12 +31,19 @@ namespace Intotech.Hornets.Bll.Sketches.Json
 
         public List<DevsModel> RunDeserialization()
         {
-            return GetDevs(File.ReadAllText(@"C:\jsondevs.txt"));
+            return GetDevs(File.ReadAllText(@"../../../../Intotech.Hornets.Bll.Sketches/Json/jsondevs.txt"));
         }
 
+     
+
+        public List<DevsModel> RunDeserializationRob()
+        
+        {
+            return GetDevs(File.ReadAllText(@"../../../../Intotech.Hornets.Bll.Sketches/Json/jsondevsRob.txt"));
+        }
         public List<DevsModel> RunDeserializationKrzys()
         {
-            return GetDevs(File.ReadAllText(@"C:\Users\Srebrny\Source\Repos\toci888\intotech_training_horspa\Hornets\Intotech.Hornets.Cmd\Intotech.Hornets.Bll.Sketches\Json\jsonKrzys.txt"));
+            return GetDevs(File.ReadAllText(@"../../../../Intotech.Hornets.Bll.Sketches/Json/jsonKrzys.json"));
         }
     }
 }

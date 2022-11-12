@@ -1,0 +1,24 @@
+{
+    "Programisci": [
+	{ "dev": "Bartek", "skills": [
+	    { "skill": "c#" },
+	    { "skill": "python" }
+	] },
+        { "dev": "Julia", "skills": [
+            { "skill": "c#" },
+            { "skill": "js" }
+        ] },
+        { "dev": "Robert", "skills": [
+            { "skill": "c#" },
+            { "skill": "sass" }
+        ] }, 
+	{ "dev": "Kacper", "skills": [
+            { "skill": "js" },
+            { "skill": "react" }
+        ] },       
+	{ "dev": "Tomasz", "skills": [
+            { "skill": "c#" },
+            { "skill": "java" }
+        ] }
+    ]
+}

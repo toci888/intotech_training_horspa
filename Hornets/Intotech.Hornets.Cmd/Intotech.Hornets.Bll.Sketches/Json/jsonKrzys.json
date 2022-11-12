@@ -1,20 +1,27 @@
 {
-    "Programisci": [
-        {
-        "dev": "Julia", "skills": [
-            { "skill": "c#" },
-            { "skill": "js" }
-        ] },
-        { "dev": "Robert" },
-        { "dev": "Krzys" },
-        {
-        "dev": "Anna", "skills": [
-            { "skill": "python" },
-            { "skill": "c++" }
-        ] },
-        {
-        "dev": "Bill", "skills": [
-            { "skill": "html" },
-            { "skill": "css" }
-        ] }
+  "Programisci": [
+    {
+      "dev": "Julia",
+      "skills": [
+        { "skill": "c#" },
+        { "skill": "js" }
+      ]
+    },
+    { "dev": "Robert" },
+    { "dev": "Krzys" },
+    {
+      "dev": "Anna",
+      "skills": [
+        { "skill": "python" },
+        { "skill": "c++" }
+      ]
+    },
+    {
+      "dev": "Bill",
+      "skills": [
+        { "skill": "html" },
+        { "skill": "css" }
+      ]
+    }
+  ]
 }
