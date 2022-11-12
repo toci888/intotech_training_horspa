@@ -10,7 +10,7 @@ namespace Intotech.Hornets.Bll.Sketches.ArraysShowdown
     {
         public override void FilterEntities(int id, string title, string subject)
         {
-            List<SubjectEntity> result = subjectEntities.Where(el => el.Id > 1 && el.Subject == "rek" ).ToList();
+            List<SubjectEntity> result = subjectEntities.Where(el => el.Id > 1 && el.Subject.Contains("rek") ).ToList();
         }
     }
 }

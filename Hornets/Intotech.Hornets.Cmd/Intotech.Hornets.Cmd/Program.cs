@@ -1,9 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Intotech.Hornets.Bll.Sketches.ArraysShowdown;
 using Intotech.Hornets.Bll.Sketches.Json;
 using Intotech.Hornets.Cmd;
 using Intotech.Hornets.Cmd.Delegates;
 using Intotech.Hornets.Cmd.Kalkulator;
 
+SubjectManager sm = new SubjectManager();
+
+string key = Console.ReadLine();
+
+sm.Run(key, 1, "", "");
 
 JsonLogic jl = new JsonLogic();
 
