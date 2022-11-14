@@ -4,8 +4,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-  <ItemGroup>
-    <Folder Include="TankStation\Implementations\" />
-    <Folder Include="Universities\" />
-  </ItemGroup>
 </Project>

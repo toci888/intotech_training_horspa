@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Intotech.Hornets.Bll.Sketches.TankStation.Interfaces
+namespace Intotech.Hornets.Bll.Sketches.GasStation.Interfaces
 {
-    public interface IGasoline
+    public interface IClient<TCar, TGoods> where TCar : ICar<IGasoline>
     {
-        double Price { get; set; }
+
     }
 }

@@ -5,6 +5,10 @@ using Intotech.Hornets.Cmd;
 using Intotech.Hornets.Cmd.Delegates;
 using Intotech.Hornets.Cmd.Kalkulator;
 
+CartoonsLogic cl = new CartoonsLogic();
+
+List<CartoonsModel> resultCartoons = cl.RunDeserializationHw();
+
 SubjectManager sm = new SubjectManager();
 
 string key = Console.ReadLine();
